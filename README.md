@@ -6,6 +6,8 @@ Antigravity adopted the open Agent Skills standard: a skill is just a folder wit
 
 Star counts are point-in-time snapshots (July 2026) and will drift.
 
+A browsable, searchable version of this list lives at [orangebot.ai/skills/antigravity](https://orangebot.ai/skills/antigravity), part of the OrangeBot skills library.
+
 ## Contents
 
 - [About Antigravity](#about-antigravity)
@@ -198,6 +200,7 @@ Best practices from the official docs: keep skills focused (one skill, one job),
 - [awesome-Antigravity](https://github.com/ZhangYu-zjut/awesome-Antigravity) - Antigravity personas, mission-control templates, and troubleshooting guides (★ 146, Jul 2026).
 - [awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) - Cross-vendor Agent Skills resource hub (★ 635, Jul 2026).
 - [awesome-devtools](https://github.com/devtoolsd/awesome-devtools) - Broader developer-tools list including AI coding assistants (★ 669, Jul 2026).
+- [OrangeBot Skills Library](https://orangebot.ai/skills) - Searchable index of 2,000+ Agent Skills with weekly install counts, GitHub stars, and one-click install commands.
 
 ## Contributing
 

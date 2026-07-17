@@ -34,3 +34,7 @@ When creating a commit message, follow Conventional Commits 1.0.0.
 ## Done means
 
 `git log -1 --format=%s` matches `^(feat|fix|refactor|docs|test|build|ci|chore|style|perf|revert)(\(.+\))?!?: .+` and the message honestly describes the diff.
+
+---
+
+Part of [awesome-antigravity-skills](https://github.com/LichAmnesia/awesome-antigravity-skills). Browse more Agent Skills at [orangebot.ai/skills](https://orangebot.ai/skills).

@@ -30,3 +30,7 @@ Replace this file's frontmatter and body with your own skill. Keep the structure
 - `name` is optional; it defaults to the folder name. Lowercase, hyphens.
 - Keep one skill = one job. Split "do everything" skills.
 - Optional companion folders: `scripts/`, `examples/`, `resources/`.
+
+---
+
+Part of [awesome-antigravity-skills](https://github.com/LichAmnesia/awesome-antigravity-skills). Browse more Agent Skills at [orangebot.ai/skills](https://orangebot.ai/skills).

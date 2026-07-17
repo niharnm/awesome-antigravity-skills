@@ -36,3 +36,7 @@ Produce a PR description a busy reviewer can act on in under a minute.
 ## Done means
 
 The description answers what/why/testing without the reviewer opening the diff, and every claim in "Testing" corresponds to a command that was actually executed.
+
+---
+
+Part of [awesome-antigravity-skills](https://github.com/LichAmnesia/awesome-antigravity-skills). Browse more Agent Skills at [orangebot.ai/skills](https://orangebot.ai/skills).
