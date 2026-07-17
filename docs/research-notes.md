@@ -42,7 +42,40 @@ All data below was collected on **2026-07-16** by driving Chrome (chrome-devtool
 ### ZhangYu-zjut/awesome-Antigravity (146★)
 - Not a skills list — personas / mission-control templates / troubleshooting; funnels to awesome-antigravity.com. Carries a Google-trademark disclaimer (pattern reused here).
 
-## Source 4 — Official docs: antigravity.google/docs/skills (fetched 2026-07-16)
+## Source 4 — ComposioHQ/awesome-claude-skills entry scrape (2026-07-16)
+
+Scraped the full skill list (93 entries across 11 categories) from the ComposioHQ README via Chrome. Selected entries were added to this list's categories. Star counts for standalone repos were fetched the same day via the GitHub API (`gh api repos/<owner>/<repo>`):
+
+| Repo | Stars (2026-07-16) |
+|---|---|
+| obra/superpowers | 256,080 |
+| anthropics/skills | 161,791 |
+| yusufkaraaslan/Skill_Seekers | 14,481 |
+| PleasePrompto/notebooklm-skill | 7,406 |
+| yvgude/lean-ctx | 3,273 |
+| lackeyjb/playwright-skill | 2,920 |
+| NeoLabHQ/context-engineering-kit | 1,245 |
+| mhattingpete/claude-skills-marketplace | 647 |
+| rampstackco/claude-skills | 465 |
+| michalparkola/tapestry-skills-for-claude-code | 474 |
+| coffeefuelbump/csv-data-summarizer-claude-skill | 429 |
+| sanjay3290/ai-skills | 347 |
+| chrisvoncsefalvay/claude-d3js-skill | 212 |
+| jthack/ffuf_claude_skill | 196 |
+| smerchek/claude-epub-skill | 139 |
+| uxKero/anydesign | 136 |
+
+Excluded during curation: `jthack/threat-hunting-with-sigma-rules-skill` (GitHub API 404 — repo gone/renamed), non-GitHub entries (Chrome Relay, Septim UTM link, mercury-mcp), and ComposioHQ `blob/master/<dir>` URLs were rewritten to `tree/master/<dir>` form (blob-dir URLs 301-redirect, which this repo's link checker intentionally fails).
+
+Corrections caught by `scripts/check-links.sh` on first run (stale data in the ComposioHQ list itself):
+
+- `obra/superpowers` no longer ships `root-cause-tracing`; replaced with `systematic-debugging` (path verified via GitHub API).
+- `michalparkola/tapestry-skills-for-claude-code` was renamed to `michalparkola/tapestry-skills`; its `tapestry` skill folder is gone (entry dropped) and `youtube-transcript` URL updated to the new repo name.
+- `mhattingpete/claude-skills-marketplace` removed its `computer-forensics-skills` plugin; entry dropped.
+
+Skills living inside a larger repo (e.g. `anthropics/skills/tree/main/skills/pdf`) are listed with the parent repo's star count, labeled "part of X".
+
+## Source 5 — Official docs: antigravity.google/docs/skills (fetched 2026-07-16)
 
 Quoted facts used in README:
 

@@ -15,10 +15,15 @@ Star counts are point-in-time snapshots (July 2026) and will drift.
 - [Skills by Category](#skills-by-category)
 	- [Development and Code Quality](#development-and-code-quality)
 	- [Design and Frontend](#design-and-frontend)
+	- [Document Processing](#document-processing)
 	- [Science and Data](#science-and-data)
 	- [Game Development](#game-development)
 	- [Context and Memory](#context-and-memory)
 	- [Workflow and Process](#workflow-and-process)
+	- [Business and Marketing](#business-and-marketing)
+	- [Communication and Writing](#communication-and-writing)
+	- [Creative and Media](#creative-and-media)
+	- [Security and Systems](#security-and-systems)
 - [Starter Skills in This Repo](#starter-skills-in-this-repo)
 - [Installing Skills](#installing-skills)
 - [Creating Your Own Skill](#creating-your-own-skill)
@@ -47,6 +52,8 @@ Because the format is an open standard shared with Claude Code, Cursor, Codex CL
 
 Large multi-skill libraries that install into Antigravity and other agents:
 
+- [superpowers](https://github.com/obra/superpowers) - Battle-tested engineering skills (TDD, debugging, brainstorming, Git workflows) by Jesse Vincent, the most-starred skill collection anywhere (★ 256.1k, Jul 2026).
+- [skills by Anthropic](https://github.com/anthropics/skills) - Anthropic's official skill library including the document suite (docx, pdf, pptx, xlsx) that ships in Claude; the reference implementation of the format (★ 161.8k, Jul 2026).
 - [antigravity-awesome-skills](https://github.com/benjaminasterA/antigravity-awesome-skills) - The largest Antigravity-branded collection with 889+ universal skills, a one-command installer, and curated bundles per role (★ 58, Jul 2026).
 - [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) - Installable library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more (★ 43.4k, Jul 2026).
 - [agent-skills by Addy Osmani](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills for AI coding agents, tagged for Antigravity compatibility (★ 78.8k, Jul 2026).
@@ -56,21 +63,39 @@ Large multi-skill libraries that install into Antigravity and other agents:
 
 ## Skills by Category
 
-Curated picks: individual skills or focused libraries worth installing on their own.
+Curated picks: individual skills or focused libraries worth installing on their own. Many originate in the Claude Code ecosystem; because Agent Skills are an open standard, they work in Antigravity as-is. Skills that live inside a larger repo show the parent repo's star count.
 
 ### Development and Code Quality
 
 - [Graphify](https://github.com/Graphify-Labs/graphify) - Turns any codebase, SQL schema, or script folder into a knowledge graph the agent can query (★ 89.2k, Jul 2026).
+- [test-driven-development](https://github.com/obra/superpowers/tree/main/skills/test-driven-development) - Enforces writing tests before implementation code for any feature or bugfix (part of superpowers, ★ 256.1k, Jul 2026).
+- [Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) - Converts any documentation website into an agent skill in minutes (★ 14.5k, Jul 2026).
 - [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development harness that turns approved specs into long-running autonomous implementation (★ 3.6k, Jul 2026).
+- [Playwright Browser Automation](https://github.com/lackeyjb/playwright-skill) - Model-invoked Playwright automation for testing and validating web applications (★ 2.9k, Jul 2026).
+- [MCP Builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder) - Guides creation of high-quality MCP servers in Python or TypeScript (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
 
 ### Design and Frontend
 
 - [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Design intelligence for building professional UI/UX across platforms, the single most-starred skill repo on GitHub (★ 107k, Jul 2026).
 - [stitch-skills](https://github.com/google-labs-code/stitch-skills) - Google Labs' design-to-code Agent Skills that pair with the Stitch MCP server (★ 7.5k, Jul 2026).
+- [Canvas Design](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/canvas-design) - Creates visual art in PNG and PDF using design philosophy and aesthetic principles (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [Theme Factory](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/theme-factory) - Applies professional font and color themes to slides, docs, reports, and landing pages (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [anydesign](https://github.com/uxKero/anydesign) - Analyzes any image, URL, or Figma file and generates a structured design system document (★ 136, Jul 2026).
+
+### Document Processing
+
+- [docx](https://github.com/anthropics/skills/tree/main/skills/docx) - Creates, edits, and analyzes Word documents with tracked changes, comments, and formatting (part of Anthropic's skills, ★ 161.8k, Jul 2026).
+- [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf) - Extracts text, tables, and metadata, and merges and annotates PDFs (part of Anthropic's skills, ★ 161.8k, Jul 2026).
+- [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx) - Reads, generates, and adjusts slides, layouts, and templates (part of Anthropic's skills, ★ 161.8k, Jul 2026).
+- [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx) - Spreadsheet manipulation covering formulas, charts, and data transformations (part of Anthropic's skills, ★ 161.8k, Jul 2026).
+- [Markdown to EPUB Converter](https://github.com/smerchek/claude-epub-skill) - Converts markdown documents into professional EPUB ebook files (★ 139, Jul 2026).
 
 ### Science and Data
 
 - [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - 148 ready-to-use skills that turn any agent into an AI scientist for bioinformatics, genomics, and scientific visualization (★ 31k, Jul 2026).
+- [CSV Data Summarizer](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) - Analyzes CSV files and generates insights with visualizations without extra prompting (★ 429, Jul 2026).
+- [PostgreSQL](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres) - Executes safe read-only SQL against PostgreSQL databases with multi-connection support (part of ai-skills, ★ 347, Jul 2026).
+- [D3.js Visualization](https://github.com/chrisvoncsefalvay/claude-d3js-skill) - Teaches the agent to produce D3 charts and interactive data visualizations (★ 212, Jul 2026).
 
 ### Game Development
 
@@ -79,16 +104,46 @@ Curated picks: individual skills or focused libraries worth installing on their 
 ### Context and Memory
 
 - [context-mode](https://github.com/mksglu/context-mode) - Context-window optimization that sandboxes tool output, persists session memory, and enforces routing (★ 19k, Jul 2026).
+- [lean-ctx](https://github.com/yvgude/lean-ctx) - Session caching, AST-aware compression, and 90+ shell patterns to cut agent token usage (★ 3.3k, Jul 2026).
 
 ### Workflow and Process
 
+- [brainstorming](https://github.com/obra/superpowers/tree/main/skills/brainstorming) - Transforms rough ideas into fully-formed designs through structured questioning (part of superpowers, ★ 256.1k, Jul 2026).
+- [systematic-debugging](https://github.com/obra/superpowers/tree/main/skills/systematic-debugging) - Drives root-cause debugging with a disciplined hypothesis-test loop instead of guess-and-check (part of superpowers, ★ 256.1k, Jul 2026).
+- [File Organizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer) - Organizes files and folders by context, finds duplicates, and suggests better structures (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [kaizen](https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen) - Applies continuous-improvement methodology based on Kaizen and Lean (part of context-engineering-kit, ★ 1.2k, Jul 2026).
 - [awesome-agv](https://github.com/irahardianto/awesome-agv) - Coding standards and best-practice packs designed to elevate agent output (★ 150, Jul 2026).
+
+### Business and Marketing
+
+- [Competitive Ads Extractor](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor) - Extracts and analyzes competitors' ads from ad libraries to decode messaging and creative angles (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [Lead Research Assistant](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant) - Identifies and qualifies leads by analyzing your product and searching target companies (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [Domain Name Brainstormer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer) - Generates domain ideas and checks availability across TLDs (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [Brand Build Skills](https://github.com/rampstackco/claude-skills) - 59-skill library covering the full website lifecycle: brand, design, content, SEO, dev, ops, and growth (★ 465, Jul 2026).
+
+### Communication and Writing
+
+- [Content Research Writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer) - Writes high-quality content with research, citations, and section-by-section feedback (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [NotebookLM Integration](https://github.com/PleasePrompto/notebooklm-skill) - Chats directly with NotebookLM for source-grounded answers from uploaded documents (★ 7.4k, Jul 2026).
+- [Twitter Algorithm Optimizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/twitter-algorithm-optimizer) - Rewrites tweets for reach using insights from Twitter's open-source algorithm (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [Meeting Insights Analyzer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer) - Analyzes meeting transcripts for conflict avoidance, speaking ratios, and leadership patterns (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+
+### Creative and Media
+
+- [Slack GIF Creator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/slack-gif-creator) - Creates animated GIFs optimized for Slack with size validators and composable animation primitives (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [Video Downloader](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader) - Downloads videos from YouTube and other platforms in various formats and qualities (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [youtube-transcript](https://github.com/michalparkola/tapestry-skills/tree/main/youtube-transcript) - Fetches transcripts from YouTube videos and prepares summaries (part of tapestry-skills, ★ 474, Jul 2026).
+- [imagen](https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen) - Generates images via Google Gemini's image API for mockups, icons, and illustrations (part of ai-skills, ★ 347, Jul 2026).
+
+### Security and Systems
+
+- [FFUF Web Fuzzing](https://github.com/jthack/ffuf_claude_skill) - Integrates the ffuf web fuzzer so the agent can run authorized fuzzing tasks and analyze results (★ 196, Jul 2026).
 
 ## Starter Skills in This Repo
 
 Minimal, dependency-free skills you can copy straight into a project. They double as format references.
 
-**skill-template** (`skills/skill-template/SKILL.md`) is a copy-paste scaffold matching the official frontmatter spec. **conventional-commits** (`skills/conventional-commits/SKILL.md`) makes the agent write Conventional Commits messages with the right type and scope. **pr-description** (`skills/pr-description/SKILL.md`) generates reviewer-friendly PR descriptions from the branch diff.
+[skill-template](skills/skill-template/SKILL.md) is a copy-paste scaffold matching the official frontmatter spec. [conventional-commits](skills/conventional-commits/SKILL.md) makes the agent write Conventional Commits messages with the right type and scope. [pr-description](skills/pr-description/SKILL.md) generates reviewer-friendly PR descriptions from the branch diff.
 
 ## Installing Skills
 
