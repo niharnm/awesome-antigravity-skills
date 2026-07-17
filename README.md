@@ -76,7 +76,7 @@ Curated picks: individual skills or focused libraries worth installing on their 
 
 ### Design and Frontend
 
-- [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Design intelligence for building professional UI/UX across platforms, the single most-starred skill repo on GitHub (★ 107k, Jul 2026).
+- [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Design intelligence for building professional UI/UX across platforms, the most-starred single-skill repo on GitHub (★ 107k, Jul 2026).
 - [stitch-skills](https://github.com/google-labs-code/stitch-skills) - Google Labs' design-to-code Agent Skills that pair with the Stitch MCP server (★ 7.5k, Jul 2026).
 - [Canvas Design](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/canvas-design) - Creates visual art in PNG and PDF using design philosophy and aesthetic principles (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
 - [Theme Factory](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/theme-factory) - Applies professional font and color themes to slides, docs, reports, and landing pages (part of awesome-claude-skills, ★ 67.9k, Jul 2026).

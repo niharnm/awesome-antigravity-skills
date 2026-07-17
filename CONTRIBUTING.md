@@ -16,6 +16,7 @@ Rules:
 - Description states what the skill *does*, not marketing copy.
 - Include the star count and the month you checked it — counts drift and readers deserve to know the vintage.
 - Link to the canonical repo, not a fork or a landing page. Each URL may appear only once in the README (`double-link` lint rule).
+- Skills that live inside a larger repo may link to the skill's `tree/<branch>/<path>` URL directly; use the parent repo's star count and label it `(part of <parent>, ★ count, month year)`. Use `tree` URLs, never `blob` URLs for directories (those 301-redirect and fail the link check).
 
 ## Quality bar
 

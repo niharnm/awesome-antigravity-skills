@@ -57,7 +57,7 @@ Scraped the full skill list (93 entries across 11 categories) from the ComposioH
 | NeoLabHQ/context-engineering-kit | 1,245 |
 | mhattingpete/claude-skills-marketplace | 647 |
 | rampstackco/claude-skills | 465 |
-| michalparkola/tapestry-skills-for-claude-code | 474 |
+| michalparkola/tapestry-skills (renamed from tapestry-skills-for-claude-code) | 474 |
 | coffeefuelbump/csv-data-summarizer-claude-skill | 429 |
 | sanjay3290/ai-skills | 347 |
 | chrisvoncsefalvay/claude-d3js-skill | 212 |
