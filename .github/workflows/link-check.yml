@@ -1,0 +1,18 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - README.md
+      - scripts/check-links.sh
+  schedule:
+    - cron: '0 6 * * 1' # weekly, Monday 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check README links
+        run: bash scripts/check-links.sh

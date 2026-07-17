@@ -7,14 +7,15 @@ Thanks for helping keep this list useful. The bar: **every entry must be somethi
 Add entries under the most specific existing category:
 
 ```markdown
-- [name](https://github.com/owner/repo) — one-line description of what it does (★ count, month year).
+- [name](https://github.com/owner/repo) - One-line description of what it does (★ count, month year).
 ```
 
 Rules:
 
-- Description states what the skill *does*, not marketing copy. Sentence case, ends with a period.
+- Separator is ` - ` (hyphen, not em-dash) and the description starts with a capital letter and ends with a period — this keeps `awesome-lint` green.
+- Description states what the skill *does*, not marketing copy.
 - Include the star count and the month you checked it — counts drift and readers deserve to know the vintage.
-- Link to the canonical repo, not a fork or a landing page.
+- Link to the canonical repo, not a fork or a landing page. Each URL may appear only once in the README (`double-link` lint rule).
 
 ## Quality bar
 
