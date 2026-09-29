@@ -75,6 +75,7 @@ Curated picks: individual skills or focused libraries worth installing on their 
 - [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development harness that turns approved specs into long-running autonomous implementation (★ 3.6k, Jul 2026).
 - [Playwright Browser Automation](https://github.com/lackeyjb/playwright-skill) - Model-invoked Playwright automation for testing and validating web applications (★ 2.9k, Jul 2026).
 - [MCP Builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder) - Guides creation of high-quality MCP servers in Python or TypeScript (part of awesome-claude-skills, ★ 67.9k, Jul 2026).
+- [splitscreen](https://github.com/niharnm/splitscreen) - Gives each parallel agent its own worktree, dev server port, and browser over CDP to test web and Electron apps without computer use (new, Sep 2026).
 
 ### Design and Frontend
 
